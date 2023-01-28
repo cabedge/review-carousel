@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(237, 237, 237);
+    display: grid;
+    grid-template-rows: repeat(2,280px);
+    place-items: center;
+}
+.headerContainer{
+    font-size: 25px;
+}
+.headerContainer div{
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 80px;
+    height: 5px;
+}
+.bodyContainer{
+    background-color: rgb(255, 255, 255);
+    height: 460px;
+    width: 600px;
+    padding: 0 5px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.314);
+    text-align: center;
+}
+.imageContainer{
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+.bodyContainer :nth-child(2){
+    font-size: 20px;
+    font-weight: 700;
+}
+.bodyContainer :nth-child(3){
+    margin-top: 3px;
+    font-size: 14px;
+}
+.bodyContainer p{
+    margin-left: 23px;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.buttonContainer{
+    position: absolute;
+    display: grid;
+    row-gap: 10px;
+    padding-top: 650px;
+}
+.buttonContainer div button{
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.buttonContainer div button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.randomBtn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.randomBtn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
